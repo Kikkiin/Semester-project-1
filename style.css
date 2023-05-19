@@ -1,0 +1,638 @@
+body {
+    background-color: white;
+    font-family: 'Montserrat', 'sans-serif';
+    margin: 0 auto;
+}
+
+.headerblack {
+    background-color: black;
+    height: 146px;
+    position: relative;
+}
+
+.headerblack h2 {
+    position: absolute;                           /*overskriften på explore siden; plasseres ift header elemetet.*/
+    z-index: 1;                                   /*gjør at teksten legger seg over bakgrunnen*/
+    top: 40%;                                     /*plasserer den sammen med left*/
+    left: 50%; 
+    transform: translate(-50%, -50%);      
+}
+
+header {
+    position: relative;
+}
+
+header h1 {
+    position: absolute;                          /*oveskriften til exhibition spaces*/
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    max-width: 30%;
+}
+
+.homelogo {
+    max-width: 31%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -190px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 40px;
+}
+
+nav a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-white a {
+    background-color: white;
+    color: black;
+}
+
+.nav-white {
+    margin-bottom: 100px;
+}
+
+nav a:hover {
+    color: #009CA6;
+}
+
+.header-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+h2 {
+    font-size: 50px;
+    color: white;
+    margin-left: 40px;
+
+}
+
+h3 {
+    font-size: ;
+
+}
+
+h4 {
+
+}
+
+h5 {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+p {
+
+}
+
+
+
+
+/*Home page*/
+
+.nav-home {
+    margin-top: -150px;
+}
+
+.nav-home a {
+    font-size: 22px;
+}
+
+.homeheader-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;                           /*bildet fyller hele containeren*/
+}
+
+.blue-textbox-home {
+    background-color: #009CAC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0%;
+}
+
+.blue-textbox-home h4 {
+    margin-left: 900px;
+    font-size: 22px;
+}
+
+.blue-textbox-home h5 {
+    font-size: 20px;
+}
+
+.textbox-image-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.text-container h3 {
+    border: 2px solid #000000;
+    padding: 50px;
+}
+
+.textbox-image {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.yellow-textbox-home {
+    background-color: #EBD82C;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.yellow-textbox-home h3 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.image-box-home {
+    background-color: #AEDC98;
+}
+
+.images-container-home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagebox {
+    max-width: 30%;
+    margin-bottom: 20px;
+}
+
+.image-box-home h3 {
+    text-align: center;
+    margin: 0 auto;                     /*sentrerer h3 elementet horisontalt, midtsilt*/
+    max-width: 700px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.dino-footer-home {
+    position: relative;               /* Posisjon relativ for å kunne bruke absolute-posisjonering */
+    text-align: center;               /* Midtstiller innholdet horisontalt */
+}
+
+.dino-footer-home div {
+    position: relative;
+}
+
+.dino-footer-home h3 {
+    position: absolute;
+    top: 700px;
+    left: 70%;
+    transform: translate(-50%, -100%);             /* Flytter teksten opp over bildet */
+    background-color: rgba(255, 255, 255, 0.7);  /* Bakgrunnsfarge (hvitt) med 0.7 gjennomsiktighet */
+    padding: 10px;
+    width: max-content;
+    white-space: nowrap;                           /* Forhindrer linjeskift */
+}
+
+.image-dino-home {
+    max-width: 90%;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+/*Explore page*/
+
+.explore-section-one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;                             /*gjør at elementene forskyves til rad under*/
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px;
+}
+
+.text-one {
+    margin-right: 100px;
+    flex-basis: 100%;                             /*sikrer at teksten tar opp hele bredden av flex containeren*/
+    margin-bottom: 5px;
+}
+
+.text-two {
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.quiz-text {
+    display: inline-block;
+    background-color: #CD1B53;
+    font-size: 22px;
+    padding: ;
+    display: ;
+    text-align: center;
+    justify-content: center;
+    flex-basis: 33%;
+    border-radius: 4px;
+}
+
+.kid-science-animation {
+    max-width: 500px;
+}
+
+.explore-kids-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.section-image{
+    position: relative;
+}
+
+.section-text {
+    background-image: url('images/sciencekids.jpg');
+    background-size: cover;                               /*for å sikre at bildet fyller hele bakgrunnen til div-elementet.*/
+    background-position: center;                          /*viser midten av bilde som bakgrunn*/
+    height: 400px;
+    position: relative;                                   /*slik at vi kan plassere overskriften relativt til div-elementet.*/
+}
+
+.section-two-paragraph {
+    color: white;
+    position: absolute;                                   /*for å plassere overskriften relativt til div-elementet.*/
+    text-align: center;
+    line-height: 30px;                                    /*sentrerer teksten*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);                     /*for å plassere overskriften midt på bildet, sammen med top og left*/
+}
+
+.explore-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 0px;
+}
+
+.explore-section-three {
+    display: flex;
+    background-color: #AEDC98;
+}
+
+.image-container, .text-containier {
+    flex-basis: 50%;                                      /*gjør at elementene tar opp like mye plass i containeren*/
+    padding: 5%;
+}
+    
+.girlinspace-image {
+    max-width: 100%; 
+    border-radius: 4px;
+}
+
+.explore-section-four {
+    display: flex;
+    background-color: #A4A8B0;
+}
+
+.scienceteacher-image {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.explore-section-five {
+    display: flex;
+    background-color: #B8D5F3;
+}
+
+.scinceresearcher-image {
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+/*Visit page*/
+
+.visit-container {
+    display: grid;
+    grid-gap: 10%;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+}
+
+.visit-map-image {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.animation-scientist {
+    max-width: 600px;
+    margin-left: 800px;
+    margin-top: 150px;
+}
+
+.email-fieldset {
+    font-size: 20px;
+    position: relative;
+}
+
+.email label:hover {
+    color: #009CA6;
+}
+
+.email-nav,
+#email-checkbox {
+    display: none;                             /*hide the checkbox*/
+}
+
+#email-checkbox:checked ~ .email-nav {         /*show the nav menu when checkbox is checked*/
+    display: block;
+}
+
+.email-nav {
+    background-color: #AEDC98;
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    padding: 15px;
+    border-radius: 1em;
+    height: 25rem;
+    line-height: 2px;
+    font-size: 18px;
+}
+
+#message {
+    height: 90px;
+}
+
+.sendinput {
+    border-radius: 1rem;
+    padding: 4px;
+}
+
+
+
+
+
+
+
+/*Exhibition page*/
+
+.exhibition-container {
+    display: flex;               /*gjør at blir en fleksibel beholder. Dette tillater innholdet innenfor containeren å justere seg i en rad/kolonne */
+    flex-wrap: wrap;            /*sørger for at innholdet kan pakke seg til neste linje hvis det ikke får plass i bredden til containeren.*/
+    justify-content: space-around;   /*fordeler de ulike div ene slik at de har lik avstand mellom seg*/
+}
+
+.exhibition-container div {
+    flex-basis: calc(33% - 20px);    /*angir bredden på hver div. calc funksjonen trekker 20 pikser på 33,33%*/
+    margin-bottom: 60px;             /*bunnmargen mellom hver div*/
+    padding: 20px;                    /*gir en intern polstring inne i hver div*/
+  }
+  
+  /* Stiler for bildet */
+  .exhibition-container img {
+    width: 100%;                      /*sørger for at bildet fyller 100% av bredden til sin overordnede div*/
+    height: auto;                      /*opprettholder bildets opprinnelige sideforhold slik at det ikke blir forvrengt*/
+    margin-bottom: 10px;               /*legger til en bunnmarg for å skape avstand mellom bilde og tekst*/
+    border-radius: 4px;
+  }
+  
+  /* Stiler for overskrift og paragraf */
+  .exhibition-container h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .exhibition-container p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+.dinosaur-container {
+    background-color: #AEDC98;
+}
+
+.cosmos-container {
+    background-color: #B8D5F3;
+}
+
+.biology-container {
+    background-color: #F9ED32;
+}
+
+.tech-container {
+    background-color: #CD1B53;
+    
+}
+
+.skeleton-container {
+    background-color: #009CA6;
+
+}
+
+.planet-container {
+    background-color: #FEAA2B;
+}
+
+
+
+
+
+/*Events page*/
+
+.section-event {
+    display: flex;
+    margin-left: 20px;
+}
+
+.section-event img {
+    max-width: 800px;
+    max-height: 500px;
+}
+
+.event-image {
+    border-radius: 20px;
+    width: 800px;
+    height: 450px;
+    padding: 10px;
+}
+
+.aeronautics-text h4 {
+    display: inline-block;          /*gjør boksen kun så bred som teksten*/
+    background-color: #EBD82C;
+    padding: 10px;
+    border: 1px solid black;   
+}
+
+.night-text h4 {
+    display: inline-block;          
+    background-color: #CD1B53;
+    padding: 10px;
+    border: 1px solid black; 
+}
+
+.energetica-text h4 {
+    display: inline-block;          
+    background-color: #AEDC98;
+    padding: 10px;
+    border: 1px solid black; 
+}
+
+
+
+
+
+
+/*GetInvolved page*/
+
+.main-getinvolved {
+    display: flex;
+    flex-direction: row;
+}
+
+.skeleton-image {
+    max-width: 700px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+/*Footer*/
+
+.footer-container {
+    margin-top: 150px;
+    padding: 20px 10%;
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container div {
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-container h3 {
+    margin-bottom: 30px;
+}
+
+form input {
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+form button {
+    background: #009CAC;
+    border: 2px solid #009CAC;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*Media quiaries*/
+
+/*Phone*/
+
+@media only screen and (max-width: 600px) {
+
+    /*Header*/
+
+    .headerblack {
+        height: 100px;
+    }
+
+    .headerblack 2 {
+        top: 50%;
+        font-size: 18px;
+    }
+
+    .header h1 {
+        top: 50%;
+        font-size: 24px;
+    }
+
+    .logo {
+        max-width: 20%;
+    }
+
+    .homelogo {
+        max-width: 21%;
+    }
+
+    nav {
+        margin-top: -110px;
+    }
+
+    nav li {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+/*Tablet*/
+
+@media only screen and (min-width:480px) and (max-width:900px) {
+
+}
