@@ -603,6 +603,10 @@ form button {
         font-size: 18px;
     }
 
+    .header-image {
+        height: 250px;
+    }
+
     .header h1 {
         top: 50%;
         font-size: 24px;
@@ -620,6 +624,14 @@ form button {
         display: none;
     }
 
+    .nav-white {
+        display: none;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
     .bottom-nav,
     #menu-checkbox {
         display: none;         /*hides the nav and checkbox by default*/
@@ -628,8 +640,6 @@ form button {
     .bottom-nav li {
         display: block;       /*shows the nav list vertical*/
         padding: 10px;
- 
-  
     }
 
     .bottom-nav {
@@ -655,10 +665,191 @@ form button {
     .fa-solid {
         color: white;
     }
-    
+
     nav a {
         font-size: 14px;
     }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {}
+
+    h3 {
+        font-size: 15px;
+    }
+
+
+
+    /*Home*/
+
+    .homeheader-image {
+        height: 250px;
+    }
+
+    .blue-textbox-home h4 {
+        font-size: 12px;
+        margin-left: 0;
+        
+    }
+
+    .blue-textbox-home h5 {
+        font-size: 10px;
+
+    }
+
+    .textbox-image-home {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .text-container h3 {
+        padding: 20px;
+    }
+
+    .yellow-textbox-home h3 {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .dino-footer-home h3 {
+        top: 50%;
+        left: 50%;
+        font-size: 10px;
+    }
+
+
+
+
+    /*Explore*/
+
+    .text-two {
+        font-size: 18px;
+    }
+
+    .kid-science-animation {
+        max-width: 450px;
+    }
+
+    .quiz-text {
+        font-size: 16px;
+    }
+
+    .explore-section-three, .explore-section-five {
+        flex-direction: column;
+    }
+
+    .explore-section-four {
+        flex-direction: column-reverse;
+    }
+
+
+
+
+    /*Visit*/
+
+    .visit-container {
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        margin-bottom: 200%;
+        text-align: center;
+    }
+
+    .animation-scientist {
+        margin-left: 30px;
+        margin-top: 100%;
+        max-width: 400px;
+    }
+    .email-fieldset {
+        font-size: 16px;
+    }
+
+    .email-nav {
+        left: 30px;
+        font-size: 15px;
+        height: 20rem;
+        width: 20rem;
+    }
+
+
+
+
+    /*Exhibition*/
+
+    .exhibition-container {
+        flex-direction: column;
+    }
+
+    #white-page .fa-solid {
+        color: black;
+    }
+
+
+
+
+    /*Events*/
+
+    .section-event {
+        flex-direction: column;
+    }
+
+    .section-event img {
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .aeronautics-text, .night-text, .energetica-text  {
+        text-align: center;
+
+    }
+    
+
+
+
+    /*Get involved*/
+
+    .main-getinvolved {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .skeleton-image {
+        max-width: 100%;
+    }
+
+
+
+    /*Footer*/
+
+    .footer-container {
+        margin-top: 50px;
+        padding: 20px 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container div {
+        margin-bottom: 20px;
+    }
+
+    .footer-container h3 {
+        margin-bottom: 20px;
+    }
+
+    form input {
+        max-width: 350px;
+        height: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+
+    .email-form {
+        width: 300px;
+    }
+
+
 
 }
 
@@ -675,7 +866,7 @@ form button {
 
 /*Desktop*/
 
-@media only screen and (min-width:600px) and (max-width:1399px) {
+@media only screen and (min-width:600px) and (max-width:2000px) {
 
     .hamburger-menu {
         display: none;
