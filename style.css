@@ -303,6 +303,7 @@ h5 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);                     /*for å plassere overskriften midt på bildet, sammen med top og left*/
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .explore-container {
