@@ -13,10 +13,6 @@ header {
 
 .headerblack {
     background-color: black;
-    /*display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
-    position: relative;*/
     max-width: 100%;
 }
 
@@ -27,8 +23,6 @@ header {
     left: 50%; 
     transform: translate(-50%, -50%);      
 }
-
-
 
 header h1 {
     position: absolute;                          /*oveskriften til exhibition spaces*/
@@ -76,10 +70,6 @@ nav a:hover {
     color: #009CA6;
 }
 
-.hamburger-menu {
-    display: ;
-}
-
 .header-image {
     width: 100%;
     height: 350px;
@@ -98,15 +88,6 @@ h2 {
     margin-left: 30px;
 }
 
-h3 {
-    font-size: ;
-
-}
-
-h4 {
-
-}
-
 h5 {
     color: white;
     font-size: 22px;
@@ -114,18 +95,13 @@ h5 {
     margin-bottom: 2px;
 }
 
-p {
-
-}
-
-
 
 
 /*Home page*/
 
 .homelogo {
     max-width: 70%;
-    height: auto;              /* Beholder proporsjonene når siden blir mindre */
+    height: auto;                           /* Beholder proporsjonene når siden blir mindre */
 }
 
 .nav-home ul {
@@ -285,7 +261,7 @@ p {
 }
 
 .button {
-    background-color: #CD1B53;
+    background-color: #F22D6B;
     border-color: #000000;
     border-width: 10px;
     font-size: 22px;    
@@ -507,7 +483,7 @@ p {
 }
 
 .tech-container {
-    background-color: #CD1B53;
+    background-color: #F22D6B;
     
 }
 
@@ -544,7 +520,7 @@ p {
 }
 
 .aeronautics-text h4 {
-    display: inline-block;          /*gjør boksen kun så bred som teksten*/
+    display: inline-block;              /*gjør boksen kun så bred som teksten*/
     background-color: #EBD82C;
     padding: 10px;
     border: 1px solid black;   
@@ -553,7 +529,7 @@ p {
 
 .night-text h4 {
     display: inline-block;          
-    background-color: #CD1B53;
+    background-color: #F22D6B;
     padding: 10px;
     border: 1px solid black; 
     border-radius: 10px;
@@ -581,7 +557,7 @@ p {
 }
 
 .skeleton-image {
-    max-width: 500px;
+    max-width: 550px;
     margin-right: 20px;
     border-radius: 4px;
 }
@@ -722,8 +698,6 @@ form button {
         font-size: 23px;
     }
 
-    h2 {}
-
     h3 {
         font-size: 15px;
     }
@@ -739,12 +713,10 @@ form button {
     .blue-textbox-home h4 {
         font-size: 12px;
         margin-left: 0;
-        
     }
 
     .blue-textbox-home h5 {
         font-size: 10px;
-
     }
 
     .textbox-image-home {
@@ -874,6 +846,7 @@ form button {
 
 
 
+    
     /*Footer*/
 
     .footer-container {
