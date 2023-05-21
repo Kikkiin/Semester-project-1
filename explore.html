@@ -13,36 +13,34 @@
     <script src="https://kit.fontawesome.com/348dd23869.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <section class="headerblack">
-            <img src="images/logoblack.png" alt="Logo for community science website" class="logo"/>
-            <div>
-                <h2>Explore together</h2>
-            </div>
-            <nav class="nav-bar">
+    <header class="headerblack">
+        <img src="images/logoblack.png" alt="Logo for community science website" class="logo"/>
+        <div>
+            <h2>Explore</h2>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="visit.html">Visit</a></li>
+                <li><a href="exhibition.html">Exhibition</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="engage.html">Engage</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-checkbox" />
+            <label for="menu-checkbox"><i class="fa-solid fa-bars"></i></label>
+
+            <nav class="bottom-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="visit.html">Visit</a></li>
                     <li><a href="exhibition.html">Exhibition</a></li>
                     <li><a href="events.html">Events</a></li>
-                    <li><a href="getinvolved.html">Get involved</a></li>
+                    <li><a href="engage.html">Engage</a></li></li>
                 </ul>
             </nav>
-            <div class="hamburger-menu">
-                <input type="checkbox" id="menu-checkbox" />
-                <label for="menu-checkbox"> <i class="fa-solid fa-bars"></i></label>
-
-                <nav class="bottom-nav">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="visit.html">Visit</a></li>
-                        <li><a href="exhibition.html">Exhibition</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="getinvolved.html">Get involved</a></li></li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
+        </div>
     </header>
 
     <main>
@@ -59,10 +57,11 @@
             Come on down to our museum, there’s plenty to see and do</h4>
             <p class="text-two">Which scientist are you? Take our qiuz</p>
             <img src="images/kid-animation.jpg" alt="animation of kid doing sience" class="kid-science-animation">
-            <div class="quiz-text">
-                <h4>Click here</h4>
-            </div> 
         </div>
+
+        <div class="quiz-text">
+            <a class="button">Click here</a> 
+        </div> 
 
         <div class="section-text">
             <p class="section-two-paragraph">You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.</p>

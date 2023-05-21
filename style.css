@@ -6,8 +6,15 @@ body {
 
 .headerblack {
     background-color: black;
-    height: 146px;
+    display: flex; /* Added */
+    align-items: center; /* Added */
+    justify-content: space-between; /* Added */
     position: relative;
+    max-width: 100%;
+}
+
+.header-content {
+
 }
 
 .headerblack h2 {
@@ -20,6 +27,9 @@ body {
 
 header {
     position: relative;
+    display: flex; /* Added */
+    align-items: center; /* Added */
+    justify-content: space-between; /* Added */
 }
 
 header h1 {
@@ -33,19 +43,15 @@ header h1 {
     max-width: 30%;
 }
 
-.homelogo {
-    max-width: 31%;
-}
-
 nav {
     display: flex;
     justify-content: flex-end;
-    margin-top: -190px;
+    margin-top: -40px;
 }
 
 nav li {
     display: inline-block;
-    padding: 40px;
+    padding: 15px;
 }
 
 nav a {
@@ -58,10 +64,13 @@ nav a {
 .nav-white a {
     background-color: white;
     color: black;
+    top: -100px;
 }
 
 .nav-white {
-    margin-bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
 }
 
 nav a:hover {
@@ -81,13 +90,13 @@ nav a:hover {
 h1 {
     font-size: 50px;
     margin-left: 40px;
+    text-align: center;
 }
 
 h2 {
     font-size: 50px;
     color: white;
-    margin-left: 40px;
-
+    margin-left: 30px;
 }
 
 h3 {
@@ -115,8 +124,18 @@ p {
 
 /*Home page*/
 
+.homelogo {
+    max-width: 70%;
+    height: auto;              /* Beholder proporsjonene når siden blir mindre */
+}
+
+.nav-home ul {
+    display: flex;
+    padding: 0;
+}
+
 .nav-home {
-    margin-top: -150px;
+    margin-top: 0;
 }
 
 .nav-home a {
@@ -134,16 +153,16 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 0%;
+    text-align: center;
 }
 
 .blue-textbox-home h4 {
-    margin-left: 900px;
-    font-size: 22px;
+    margin-left: 30em;
+    font-size: 1,9em;
 }
 
 .blue-textbox-home h5 {
-    font-size: 20px;
+    font-size: 1,8em;
 }
 
 .textbox-image-home {
@@ -180,7 +199,7 @@ p {
 
 .yellow-textbox-home h3 {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1,8em;
 }
 
 .image-box-home {
@@ -217,8 +236,8 @@ p {
 
 .dino-footer-home h3 {
     position: absolute;
-    top: 700px;
-    left: 70%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -100%);             /* Flytter teksten opp over bildet */
     background-color: rgba(255, 255, 255, 0.7);  /* Bakgrunnsfarge (hvitt) med 0.7 gjennomsiktighet */
     padding: 10px;
@@ -259,15 +278,20 @@ p {
 }
 
 .quiz-text {
-    display: inline-block;
-    background-color: #CD1B53;
-    font-size: 22px;
-    padding: ;
-    display: ;
+    display: flex;
     text-align: center;
     justify-content: center;
-    flex-basis: 33%;
-    border-radius: 4px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #CD1B53;
+    border-color: #000000;
+    border-width: 10px;
+    font-size: 22px;    
+    border-radius: 10px;
+    padding: 4px 15px;
 }
 
 .kid-science-animation {
@@ -375,6 +399,7 @@ p {
 .email-fieldset {
     font-size: 20px;
     position: relative;
+    margin-bottom: 2em;
 }
 
 .email label:hover {
@@ -423,12 +448,14 @@ p {
     display: flex;               /*gjør at blir en fleksibel beholder. Dette tillater innholdet innenfor containeren å justere seg i en rad/kolonne */
     flex-wrap: wrap;            /*sørger for at innholdet kan pakke seg til neste linje hvis det ikke får plass i bredden til containeren.*/
     justify-content: space-around;   /*fordeler de ulike div ene slik at de har lik avstand mellom seg*/
+    margin-top: 5%;
 }
 
 .exhibition-container div {
     flex-basis: calc(33% - 20px);    /*angir bredden på hver div. calc funksjonen trekker 20 pikser på 33,33%*/
     margin-bottom: 60px;             /*bunnmargen mellom hver div*/
     padding: 20px;                    /*gir en intern polstring inne i hver div*/
+    border: 2px solid black;
   }
   
   /* Stiler for bildet */
@@ -505,6 +532,7 @@ p {
     background-color: #EBD82C;
     padding: 10px;
     border: 1px solid black;   
+    border-radius: 10px;
 }
 
 .night-text h4 {
@@ -512,6 +540,7 @@ p {
     background-color: #CD1B53;
     padding: 10px;
     border: 1px solid black; 
+    border-radius: 10px;
 }
 
 .energetica-text h4 {
@@ -519,6 +548,7 @@ p {
     background-color: #AEDC98;
     padding: 10px;
     border: 1px solid black; 
+    border-radius: 10px;
 }
 
 
@@ -526,7 +556,7 @@ p {
 
 
 
-/*GetInvolved page*/
+/*Engage page*/
 
 .main-getinvolved {
     display: flex;
@@ -639,22 +669,24 @@ form button {
 
     .bottom-nav li {
         display: block;       /*shows the nav list vertical*/
-        padding: 10px;
+        padding: 5px;
+        text-align: center;
     }
 
     .bottom-nav {
         position: absolute;
         top: 160px;
         right: 30px;
-        padding: 2px;
+        padding: 1px 1px;
         background-color: black;
+        border-radius: 5px;
     }
 
     .hamburger-menu {
         position: absolute;
         top: 10px;
         right: 10px;
-        padding: 10px;
+        padding: 5px;
     }
 
     #menu-checkbox:checked ~ .bottom-nav {
@@ -670,7 +702,7 @@ form button {
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 23px;
     }
 
     h2 {}
@@ -751,6 +783,7 @@ form button {
     .visit-container {
         grid-template-columns: 1fr;
         margin-left: 20px;
+        margin-right: 20px;
         margin-bottom: 200%;
         text-align: center;
     }
@@ -760,6 +793,7 @@ form button {
         margin-top: 100%;
         max-width: 400px;
     }
+
     .email-fieldset {
         font-size: 16px;
     }
@@ -784,6 +818,10 @@ form button {
         color: black;
     }
 
+    header h1 {
+        top: 60%;
+    }
+
 
 
 
@@ -806,7 +844,7 @@ form button {
 
 
 
-    /*Get involved*/
+    /*Engage*/
 
     .main-getinvolved {
         flex-direction: column-reverse;
@@ -859,6 +897,81 @@ form button {
 /*Tablet*/
 
 @media only screen and (min-width:601px) and (max-width:900px) {
+
+
+
+    /*Header*/
+
+    h1 {
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    nav li {
+        padding: 8px;
+    }
+
+
+    /*Home*/
+
+    .nav-home a {
+        font-size: 16px;
+    }
+
+
+    /*Visit*/
+
+    .email-fieldset {
+        font-size: 16px;
+    }
+
+    .animation-scientist {
+        margin-left: 10em;
+        margin-top: 100%;
+        max-width: 500px;
+    }
+
+    .email-fieldset {
+        font-size: 16px;
+    }
+
+    .email-nav {
+        left: 30px;
+        font-size: 16px;
+        height: 25rem;
+        width: 27rem;
+    }
+
+    /*Events*/
+
+    .event-image {
+        width: 350px;
+        height: 250px;
+    }
+
+
+    /*Engage*/
+
+    .main-getinvolved {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    
+    .skeleton-image {
+        max-width: 100%;
+    }
+
+    /*Footer*/
+
+    form input {
+        max-width: 320px;
+        height: 30px;
+    }
 
 }
 

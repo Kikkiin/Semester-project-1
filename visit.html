@@ -13,40 +13,41 @@
     <script src="https://kit.fontawesome.com/348dd23869.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <section class="headerblack">
-            <img src="images/logoblack.png" alt="Logo for community science website" class="logo"/>
-            <div>
-                <h2>Visit us</h2>
-            </div>
-            <nav class="nav-bar">
+    <header class="headerblack">
+        <img src="images/logoblack.png" alt="Logo for community science website" class="logo"/>
+        <div>
+            <h2>Visit us</h2>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="exhibition.html">Exhibition</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="engage.html">Engage</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-checkbox" />
+            <label for="menu-checkbox"> <i class="fa-solid fa-bars"></i></label>
+
+            <nav class="bottom-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="explore.html">Explore</a></li>
                     <li><a href="exhibition.html">Exhibition</a></li>
                     <li><a href="events.html">Events</a></li>
-                    <li><a href="getinvolved.html">Get involved</a></li>
+                    <li><a href="engage.html">Engage</a></li></li>
                 </ul>
             </nav>
-            <div class="hamburger-menu">
-                <input type="checkbox" id="menu-checkbox" />
-                <label for="menu-checkbox"> <i class="fa-solid fa-bars"></i></label>
-
-                <nav class="bottom-nav">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="explore.html">Explore</a></li>
-                        <li><a href="exhibition.html">Exhibition</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="getinvolved.html">Get involved</a></li></li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
-        <img src="images/visitheader.jpg" alt="Image for visit us header" class="header-image"/>
+        </div>
     </header>
 
     <main>
+
+        <div>
+            <img src="images/visitheader.jpg" alt="Image for visit us header" class="header-image"/>
+        </div>
         
         <section class="visit-container">
             <div>
@@ -108,7 +109,7 @@
                 </div>
             </div>
 
-        </section>
+        </section class="visit-image-container">
             <img src="images/scientist-animation.jpg" alt="Kids science animation" class="animation-scientist">
         <section>
 
