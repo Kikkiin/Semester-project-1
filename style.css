@@ -109,6 +109,10 @@ h5 {
     padding: 0;
 }
 
+.nav-home li {
+    margin-right: 20px;
+}
+
 .nav-home {
     margin-top: 0;
 }
@@ -623,7 +627,7 @@ form button {
 
     .headerblack h2 {
         top: 50%;
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .header-image {
@@ -695,7 +699,11 @@ form button {
     }
 
     h1 {
-        font-size: 23px;
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 24px;
     }
 
     h3 {
@@ -711,12 +719,12 @@ form button {
     }
 
     .blue-textbox-home h4 {
-        font-size: 12px;
+        font-size: 14px;
         margin-left: 0;
     }
 
     .blue-textbox-home h5 {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .textbox-image-home {
@@ -729,14 +737,14 @@ form button {
     }
 
     .yellow-textbox-home h3 {
-        font-size: 10px;
+        font-size: 14px;
         margin-top: 5px;
     }
 
     .dino-footer-home h3 {
         top: 50%;
         left: 50%;
-        font-size: 10px;
+        font-size: 13px;
     }
 
 
@@ -778,7 +786,7 @@ form button {
     }
 
     .animation-scientist {
-        margin-left: 7em;
+        margin-left: 4em;
         margin-top: 250px;
         max-width: 400px;
     }
@@ -788,7 +796,7 @@ form button {
     }
 
     .email-nav {
-        left: 8em;
+        left: 4em;
         font-size: 15px;
         height: 20rem;
         width: 20rem;
@@ -821,7 +829,7 @@ form button {
     }
 
     .section-event img {
-        max-width: 100%;
+        max-width: 90%;
         height: 200px;
     }
 
@@ -846,7 +854,7 @@ form button {
 
 
 
-    
+
     /*Footer*/
 
     .footer-container {
@@ -915,6 +923,10 @@ form button {
 
     .nav-home a {
         font-size: 16px;
+    }
+
+    .nav-home li {
+        margin-right: 5px;
     }
 
 
