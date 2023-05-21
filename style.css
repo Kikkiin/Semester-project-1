@@ -390,6 +390,10 @@ p {
     border-radius: 50%;
 }
 
+.visit-image-container {
+    display: flex;
+}
+
 .animation-scientist {
     max-width: 50%;
     margin-left: 600px;
