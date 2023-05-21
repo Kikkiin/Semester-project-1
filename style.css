@@ -573,10 +573,11 @@ p {
 .main-getinvolved {
     display: flex;
     flex-direction: row;
+    margin-right: 20px;
 }
 
 .skeleton-image {
-    max-width: 700px;
+    max-width: 500px;
     margin-right: 20px;
     border-radius: 4px;
 }
