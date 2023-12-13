@@ -1,8 +1,7 @@
 # Semester project 1
 # Community science museum
 
-![Image of girl doing science] (images/homeheader.jpg)
-<!-- (https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png) -->
+<img src="images/homeheader.jpg" alt="Image of girl doing science">
 
 An interactive and educational website dedicated to sparking children's interest in science, biology, dinosaurs, and more, suitable for both children and their parents or young adults.
 
